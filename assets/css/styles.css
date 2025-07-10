@@ -20,7 +20,7 @@ Ejemplo color: var(--color-primario);
 
 body {
   background-color: var(--color-fondo);
-  background-image: url("/Software-x/assets/img/tables.jpg");
+  background-image: url("/assets/img/tables.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 

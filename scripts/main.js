@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const btnPlay = document.getElementById("btnPlay");
   if (btnPlay) {
     btnPlay.addEventListener("click", () => {
-      window.location.href = "/Software-x/views/game.html";
+      window.location.href = "/views/game.html";
     });
   }
 
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (document.getElementById("carousel")) {
     fetchElements.push(
-      fetch("/Software-x/views/carousel.html")
+      fetch("/views/carousel.html")
         .then((res) =>
           res.ok ? res.text() : Promise.reject("Carousel not found")
         )
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (document.getElementById("game-board")) {
     fetchElements.push(
-      fetch("/Software-x/views/game-board.html")
+      fetch("/views/game-board.html")
         .then((res) =>
           res.ok ? res.text() : Promise.reject("Game board not found")
         )
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (document.getElementById("footer")) {
     fetchElements.push(
-      fetch("/Software-x/views/footer.html")
+      fetch("/views/footer.html")
         .then((res) =>
           res.ok ? res.text() : Promise.reject("Footer not found")
         )

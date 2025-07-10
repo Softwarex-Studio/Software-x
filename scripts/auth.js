@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
     sesionbtn.removeAttribute("data-bs-target");
 
     sesionbtn.onclick = () => {
-      window.location.href = "/views/game.html";
+      window.location.href = "/Software-x/views/game.html";
     };
   }
 });
